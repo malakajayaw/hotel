@@ -14,8 +14,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick(View view){
-        Intent signup = new Intent(this,TSingup.class);
-        startActivity(signup);
-    }
+
 }
