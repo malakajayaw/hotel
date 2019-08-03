@@ -87,25 +87,25 @@ public class MHome extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         } else if (id == R.id.to_do) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         }  else if (id == R.id.add_places) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         } else if (id == R.id.manage_places) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         } else if (id == R.id.add_hotels) {
             Intent link = new Intent(this,MAddHotel.class);
             startActivity(link);
         } else if (id == R.id.manage_hotels) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         } else if (id == R.id.edit_profile) {
-            Intent link = new Intent(this,MAddHotel.class);
+            Intent link = new Intent(this,MHome.class);
             startActivity(link);
         }
 

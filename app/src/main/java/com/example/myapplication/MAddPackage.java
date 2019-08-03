@@ -21,4 +21,8 @@ public class MAddPackage extends AppCompatActivity {
         Intent a = new Intent(this,MAddPackage.class);
         startActivity(a);
     }
+    public void goToSummary(View view){
+        Intent a = new Intent(this,MAddHSummary.class);
+        startActivity(a);
+    }
 }
