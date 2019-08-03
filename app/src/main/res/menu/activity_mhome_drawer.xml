@@ -9,17 +9,9 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/to_do"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Things to do" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
     </group>
 
     <item android:title="Contribute">
@@ -29,9 +21,17 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="Add Places" />
             <item
-                android:id="@+id/add_hotel"
+                android:id="@+id/manage_places"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Manage Places" />
+            <item
+                android:id="@+id/add_hotels"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Add Hotels" />
+            <item
+                android:id="@+id/manage_hotels"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Hotels" />
         </menu>
     </item>
     <item android:title="Your Profile">
@@ -40,10 +40,6 @@
                 android:id="@+id/edit_profile"
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
         </menu>
     </item>
 
