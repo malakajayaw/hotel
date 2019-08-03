@@ -11,7 +11,7 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Things to do" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
@@ -22,10 +22,22 @@
             android:title="@string/menu_tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Contribute">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/add_places"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Places" />
+            <item
+                android:id="@+id/add_hotel"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Hotels" />
+        </menu>
+    </item>
+    <item android:title="Your Profile">
+        <menu>
+            <item
+                android:id="@+id/edit_profile"
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/menu_share" />
             <item

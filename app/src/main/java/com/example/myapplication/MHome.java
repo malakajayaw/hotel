@@ -93,7 +93,7 @@ public class MHome extends AppCompatActivity
 
         } else if (id == R.id.nav_tools) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.add_places) {
 
         } else if (id == R.id.nav_send) {
 
